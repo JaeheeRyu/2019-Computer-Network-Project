@@ -17,7 +17,7 @@ def scd():
     j = json.loads(data)
 
     # teleurl 변수에 텔레그램 botfather 한테 받은 자신의 API 넣기
-    teleurl = "https://api.telegram.org/bot925614271:AAHkV-7yVUux-r52PPUOeOEz8flSd3XqqwE/sendMessage"
+    teleurl = "YOUR TELEGRAM API"
 
     # 챗 id 와 symbol : price 값을 텔레그램에 보내기
     params = {'chat_id': '-1001243756825', 'text': j[0]["symbol"] + " : " + str(j[0]["price"])}
